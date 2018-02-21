@@ -89,11 +89,12 @@ You can find some examples in ./example/ folder.
 
 ## Test's ##
 
-Also you can run some tests.
+To run testing.
 ```bash
-make tst
+chmod 755 testing.sh
+./testing.sh
 ```
 
-Command compile executable ./test . It work same as main program ./frog, you need to run it with map file as argument, but you need to add expecting value before map of leaves. Also you can use my files in test/ folder.
+It will compile executable ./test_frog and run some tests. It work same as main program ./frog, you need to run it with map file as argument, but you need to add expecting value before map of leaves, so you can write your own tests. Also you can use my files in test/ folder.
 
 Example: 3 [0 0 0 1 1 0 1 0 1 1 ]
