@@ -71,7 +71,7 @@ expected worst-case space complexity is O(N), beyond input storage (not counting
 ## How to compile ##
 
 ```bash
-git clone https://github.com/all-in0/FibFrog
+git clone https://github.com/all-in0/FibFrog.git
 
 cd FibFrog
 make
