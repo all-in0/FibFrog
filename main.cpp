@@ -92,7 +92,6 @@ int main(int ac, char **av) {
     vector<int> a;
     string s;
     s = readFile(av[1]);
-    cout << "ok" << endl;
     if (s.size() < 2 || s[0] != '[') {
         cout << "use correct .frog file!" << endl;
         return 0;
