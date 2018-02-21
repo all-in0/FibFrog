@@ -91,8 +91,9 @@ You can find some examples in ./example/ folder.
 
 Also you can run some tests.
 ```bash
-make test
+make tst
 ```
 
-My program run some basic tests, and compile executable ./test . It work same as main program ./frog, you need to run it with map file as argument, but you need to add expecting value before map of leaves.
+Command compile executable ./test . It work same as main program ./frog, you need to run it with map file as argument, but you need to add expecting value before map of leaves. Also you can use my files in test/ folder.
+
 Example: 3 [0 0 0 1 1 0 1 0 1 1 ]
